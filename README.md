@@ -25,3 +25,6 @@
   <li>Dashboard with table view</li>
   <li>Image + description for each sweet</li>
 </ul>
+Tools used
+ChatGPT (OpenAI) — used for explaining concepts, generating code snippets, suggesting fixes, and drafting documentation and tests.
+GitHub Copilot — used to suggest inline code completions while writing components and simple utility functions (only when it helped speed up repetitive work).
