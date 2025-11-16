@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Candy-wrapper background: baby pink base with magenta diagonal stripes */
+.candy-bg {
+	background-color: #ffdbe6; /* baby pink */
+	/* subtle magenta diagonal stripes */
+	background-image: repeating-linear-gradient(
+		135deg,
+		rgba(255, 0, 149, 0.10) 0,
+		rgba(255, 0, 149, 0.10) 8px,
+		transparent 8px,
+		transparent 16px
+	);
+}
+
+/* Optional subtle gloss to resemble wrapper shine */
+.candy-bg::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	background: linear-gradient(120deg, rgba(255,255,255,0.04), rgba(255,255,255,0));
+}
+
+/* Brand curly font for headings */
+.brand-font {
+	font-family: 'Great Vibes', cursive;
+}
