@@ -1,0 +1,15 @@
+# Python
+**/.venv/
+**/venv/
+*.pyc
+__pycache__/
+
+# Node
+node_modules/
+dist/
+
+# uploads (do not commit user uploaded images)
+sweetshop-backend/.venv/app/uploads/
+
+# IDE
+.vscode/
