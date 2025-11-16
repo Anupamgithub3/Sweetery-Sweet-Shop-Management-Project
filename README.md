@@ -1,18 +1,27 @@
-# React + Vite
+<h1> Sweetery — Sweet Shop Management System</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>A full-stack Sweet Shop management application built with <strong>React + Vite</strong> (Frontend) and <strong>Spring Boot / Node</strong> (Backend). This project is built following <strong>Test-Driven Development (TDD)</strong>, clean code principles, and AI-assisted development as per assignment rules.</p>
 
-Currently, two official plugins are available:
+<hr />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2> Features</h2>
 
-## React Compiler
+<h3> User Features</h3>
+<ul>
+  <li>Browse sweets with images</li>
+  <li>Search sweets</li>
+  <li>Real-time stock visibility</li>
+  <li>Offer price &amp; rating display</li>
+  <li>Attractive sweet-box themed UI</li>
+  <li>Purchase button (disabled when out of stock)</li>
+</ul>
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<h3> Admin Features</h3>
+<ul>
+  <li>Add new sweets</li>
+  <li>Edit existing sweets</li>
+  <li>Delete sweets with confirmation modal</li>
+  <li>Upload sweet images</li>
+  <li>Dashboard with table view</li>
+  <li>Image + description for each sweet</li>
+</ul>
